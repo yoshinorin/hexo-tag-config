@@ -1,0 +1,14 @@
+
+.idea/
+.github/
+.vscode/
+coverage/
+tests/
+exectest.js
+jest.confing.js
+.travis.yml
+.editorconfig
+.eslintrc.yml
+.eslintignore
+*.log
+.DS_Store

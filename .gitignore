@@ -1,0 +1,22 @@
+# IntelliJ specific
+.idea/
+.idea_modules/
+
+# General
+*.log
+*.tmp
+*.gz
+*.tar
+~$*
+node_modules/
+Thumbs.db
+.DS_Store
+
+# Front end
+**/node_modules/*
+**/dist/*
+
+/package-lock.json
+/coverage/*
+
+dist/*
