@@ -1,6 +1,6 @@
 # hexo-tag-config
 
-[![NPM version](https://badge.fury.io/js/hexo-tag-config)](https://www.npmjs.com/package/hexo-tag-config)
+[![NPM version](https://badge.fury.io/js/hexo-tag-config.svg)](https://www.npmjs.com/package/hexo-tag-config)
 [![Build Status](https://travis-ci.org/YoshinoriN/hexo-tag-config.svg?branch=master)](https://travis-ci.org/YoshinoriN/hexo-tag-config) [![Coverage Status](https://coveralls.io/repos/github/YoshinoriN/hexo-tag-config/badge.svg?branch=master)](https://coveralls.io/github/YoshinoriN/hexo-tag-config?branch=master)
 
 A hexo plugin for insert hexo configuration values (_config.yml) to your post/page.
