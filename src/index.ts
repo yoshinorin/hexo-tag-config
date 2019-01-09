@@ -8,4 +8,4 @@ hexo.extend.tag.register("config", (x) => {
   const keys: Array<string> = x.toString().split(".");
   const depth: number = keys.length - 1;
   return getObject(config, 0, depth, keys);
-});
+}, {async: true});
