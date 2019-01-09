@@ -1,5 +1,3 @@
-'use strict';
-
 import { getObject } from "./processer";
 
 // @ts-ignore
