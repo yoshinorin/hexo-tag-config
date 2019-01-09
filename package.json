@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A hexo tag for insert configuration values (_config.yml) to your post/page",
   "main": "./dist/index.js",
   "license": "MIT",
