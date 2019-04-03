@@ -43,7 +43,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^24.0.0",
-    "coveralls": "3.0.2",
+    "coveralls": "3.0.3",
     "jest": "24.5.0",
     "ts-jest": "^24.0.1",
     "tslint": "^5.12.0",
