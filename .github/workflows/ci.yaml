@@ -20,7 +20,7 @@ jobs:
       - name: Compile TypeScript
         run: npm run build
       - name: Run test
-        run: npm run test --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+        run: npm run test
       - name: Run lint
         run: npm run lint
 
