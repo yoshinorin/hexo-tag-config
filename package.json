@@ -1,13 +1,13 @@
 {
   "name": "hexo-tag-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A hexo tag for insert configuration values (_config.yml) to your post/page",
   "main": "./dist/index.js",
   "license": "MIT",
   "author": {
     "name": "YoshinoriN",
     "email": "yoshinorin.net@outlook.com",
-    "url": "https://yoshinorin.net"
+    "url": "https://about.yoshinorin.net"
   },
   "repository": {
     "type": "git",
