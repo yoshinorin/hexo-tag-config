@@ -1,3 +1,4 @@
+// @ts-ignore
 export function getObject(obj: object, currentDepth: number, maxDepth: number, keys: Array<string>): string | undefined {
   if (obj[keys[currentDepth]] === undefined) {
     return undefined;
