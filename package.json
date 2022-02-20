@@ -5,16 +5,16 @@
   "main": "./dist/index.js",
   "license": "MIT",
   "author": {
-    "name": "YoshinoriN",
+    "name": "yoshinorin",
     "email": "yoshinorin.net@outlook.com",
     "url": "https://about.yoshinorin.net"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YoshinoriN/hexo-tag-config"
+    "url": "https://github.com/yoshinorin/hexo-tag-config"
   },
   "bugs": {
-    "url": "https://github.com/YoshinoriN/hexo-tag-config/issues"
+    "url": "https://github.com/yoshinorin/hexo-tag-config/issues"
   },
   "keywords": [
     "hexo"

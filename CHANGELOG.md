@@ -3,7 +3,7 @@
 
 ### Fix
 
-* fix error Plugin load failed: %s hexo-tag-config [#82](https://github.com/YoshinoriN/hexo-tag-config/issues/82)
+* fix error Plugin load failed: %s hexo-tag-config [#82](https://github.com/yoshinorin/hexo-tag-config/issues/82)
     * forgot `tsc -p tsconfig.json` before publish `v2.0.0`
 
 ## v2.0.0 - November 9, 2020
