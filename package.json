@@ -20,7 +20,10 @@
     "hexo"
   ],
   "scripts": {
+    "prepublishOnly": "npm install && npm run clean && npm run build",
+    "clean": "tsc -b --clean",
     "build": "tsc -p tsconfig.json",
+    "pretest": "npm run clean && npm run build",
     "test": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
