@@ -1,3 +1,4 @@
+import { expect, test } from "vitest";
 import { getObject } from "../src/processer"
 
 const testObject = {
