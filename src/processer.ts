@@ -5,7 +5,7 @@ export function getObject(obj: object, currentDepth: number, maxDepth: number, k
   }
   if (currentDepth === maxDepth) {
     return obj[keys[currentDepth]];
-  } else {
-    return getObject(obj[keys[currentDepth]], currentDepth + 1, maxDepth, keys);
   }
+  return getObject(obj[keys[currentDepth]], currentDepth + 1, maxDepth, keys);
+
 }

@@ -2,16 +2,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
+    "sourceMap": true,
     "outDir": "dist",
-    "lib": [
-      "es6"
+    "declaration": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
     ],
-    "sourceMap": false,
-    "rootDir": "src",
-    "strict": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "noImplicitAny": false,
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules",

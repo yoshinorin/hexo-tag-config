@@ -1,35 +1,35 @@
-import { expect, test } from "vitest";
-import { getObject } from "../src/processer"
+import { expect, test } from 'vitest';
+import { getObject } from '../src/processer';
 
 const testObject = {
   foo: {
     bar: {
-      hoge: "piyo"
+      hoge: 'piyo'
     }
   }
 };
 
 test('Find foo object', () => {
   expect(getObject(testObject, 0, 0, ['foo']))
-  .toEqual({
+    .toEqual({
       bar: {
-        hoge: "piyo"
+        hoge: 'piyo'
       }
     }
-  );
+    );
 });
 
 test('Find bar object', () => {
   expect(getObject(testObject, 0, 1, ['foo', 'bar']))
-  .toEqual({hoge: "piyo"});
+    .toEqual({hoge: 'piyo'});
 });
 
 test('Find hoge object', () => {
   expect(getObject(testObject, 0, 2, ['foo', 'bar', 'hoge']))
-  .toEqual("piyo");
+    .toEqual('piyo');
 });
 
 test('Return enpty', () => {
   expect(getObject(testObject, 0, 1, ['fooo']))
-  .toBeUndefined;
+    .toBeUndefined;
 });
