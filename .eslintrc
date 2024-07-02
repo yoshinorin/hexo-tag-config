@@ -9,6 +9,7 @@
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/ban-ts-comment": 0,
     "@typescript-eslint/no-this-alias": 0,
-    "no-unused-expressions": 0
+    "no-unused-expressions": 0,
+    "linebreak-style": 0
   }
 }
